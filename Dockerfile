@@ -1,7 +1,7 @@
 FROM node:latest
 
 # Install base packages
-RUN npm install -g hubot@2.6.0 coffee-script
+RUN npm install -g hubot coffee-script
 
 # Create new hubot and setup for slack.
 RUN cd /root && \
